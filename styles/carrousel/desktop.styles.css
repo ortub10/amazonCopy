@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.also-viewed {
+    padding: 30px 0;
+}
+
+.also-viewed .container {
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+}
+
+.also-viewed button {
+    background: #e7e9ec;
+    padding: 14px;
+    border-radius: 5px;
+    border-color: #ADB1B8 #A2A6AC #8D9096;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.also-viewed__title {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.also-viewed h3 {
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #cc6600;
+    font-weight: 700;
+    line-height: 2.1rem;
+    justify-self: self-start;
+}
+
+.also-viewed__card {
+    max-width: 130px;
+}
+.also-viewed__card a{
+    color: #007185;
+}
+.also-viewed__card a:hover{
+    color:#c45500 ;
+    text-decoration: underline;
+}
+.also-viewed__card__stars span{
+    font-size: 12px;
+}
